@@ -1,6 +1,6 @@
 # Humio LDAP Configuration Testing
 
-This project is used to generate the `humio/ldap-test` docker image that's used
+This project is used to generate the `humio/humio-ldap-test` docker image that's used
 to help determine what LDAP configuration settings you need to use when setting
 up Humio for LDAP authentication. The contents include:
 
