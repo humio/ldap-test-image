@@ -20,7 +20,7 @@ After you have that installed locally somewhere that has network access to your
 LDAP directory service, pull the image:
 
 ```
-docker pull humio/ldap-test
+docker pull humio/humio-ldap-test
 ```
 
 Next, create a `.env` file and add your LDAP configuration variable to it using
