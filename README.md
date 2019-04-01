@@ -1,8 +1,8 @@
 # Humio LDAP Configuration Testing
 
-This project is used to generate the `humio/humio-ldap-test` docker image that's used
-to help determine what LDAP configuration settings you need to use when setting
-up Humio for LDAP authentication. The contents include:
+This project is used to generate the [humio/humio-ldap-test](https://hub.docker.com/r/humio/humio-ldap-test)
+docker image that's used to help determine what LDAP configuration settings you
+need to use when setting up Humio for LDAP authentication. The contents include:
 
 * `Dockerfile` - the docker build file
 * `ldap-test.jar` - the compiled version of the [humio/ldap_test](https://github.com/humio/ldap_test) repo
@@ -45,9 +45,9 @@ where configuration issues might be happening. To make changes, just modify the
 ## Building the Image
 
 This section is only needed if you're interested in building your own `humio-ldap-test`
-image for some reason. It's recommended that you use the `humio/humio-ldap-test` image,
-but you're welcome to build your own. There are no special steps required to
-build the image, so simply running:
+image for some reason. It's recommended that you use the [humio/humio-ldap-test](https://hub.docker.com/r/humio/humio-ldap-test)
+image, but you're welcome to build your own. There are no special steps required
+to build the image, so simply running:
 
 ```
 docker build -t my-ldap-test .
