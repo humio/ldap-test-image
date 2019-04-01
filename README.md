@@ -44,8 +44,8 @@ where configuration issues might be happening. To make changes, just modify the
 
 ## Building the Image
 
-This section is only needed if you're interested in building your own `ldap-test`
-image for some reason. It's recommended that you use the `humio/ldap-test` image,
+This section is only needed if you're interested in building your own `humio-ldap-test`
+image for some reason. It's recommended that you use the `humio/humio-ldap-test` image,
 but you're welcome to build your own. There are no special steps required to
 build the image, so simply running:
 
