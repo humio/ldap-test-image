@@ -32,7 +32,7 @@ for guidance. You can see an example at `.env.example`.
 Once your `.env` file is ready to test, simply run this command:
 
 ```
-docker run -it --rm --env-file .env humio-ldap-test $USER $PASS
+docker run -it --rm --env-file .env humio/humio-ldap-test $USER $PASS
 ```
 
 where `$USER` is the username of user you're attempting to authenticate with
