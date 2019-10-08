@@ -1,4 +1,4 @@
-FROM bellsoft/liberica-openjdk-alpine:12
+FROM bellsoft/liberica-openjdk-alpine:13
 
 COPY ldap-test.jar /
 
